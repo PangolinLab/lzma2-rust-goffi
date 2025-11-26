@@ -1,0 +1,12 @@
+[package]
+name = "lzma2"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "lzma2"
+crate-type = ["cdylib"]
+
+[dependencies]
+xz2 = "0.1"
+libc = "0.2"
